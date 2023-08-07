@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3ACAC"
+    tools:context=".CheckList">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFD6D6"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtAdd"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:hint="Enter item to add...."
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:layout_marginStart="8dp"/>
+        
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/check"/>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>
