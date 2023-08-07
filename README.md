@@ -13,6 +13,8 @@ Key Features:
 
 --> Java is a widely used language, and it will have a strong community, that's why I used to prefer it. 
 
+For the internal database, I used the Android Room library, So I easily perform operations on the database because the room library has predefined queries and many more. 
+
 Youtube Video Link: https://youtu.be/AdJt4dMSask
 
 App Download Link: https://drive.google.com/file/d/1hsstyTnB2Hr2zqWsHPqK3a7oW_ANoxTw/view?usp=sharing 
